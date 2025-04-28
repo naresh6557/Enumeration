@@ -32,23 +32,26 @@ Google hacking, also known as Google dorking, is a technique that involves using
 
 site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain yahoo.com
+![Alt text](img/yahoo.png)
 
 filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
 
-
+![Alt text](img/filetype.png)
 
 intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
-
+![Alt text](img/intext.png)
 
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
+![Alt text](img/admin.png)
 
 intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
-
+![Alt text](img/index.png)
 link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
+![Alt text](img/example.png)
 
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
-
+![Alt text](img/domain.png)
  
 #DNS Enumeration
 
@@ -60,11 +63,11 @@ Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TX
 Perform common SRV Record Enumeration
 Top level domain expansion
 ## OUTPUT:
+![Alt text](img/dns.png)
 
 
 
-
-
+![Alt text](img/cdac.png)
 
 
 ##dnsenum
@@ -80,13 +83,16 @@ Calculate C class domain network ranges and perform whois queries on them (threa
 Perform reverse lookups on netranges (C class or/and whois netranges) (threaded).
 Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
-
+![Alt text](img/dnsenum.png)
 
 ##smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
+![Alt text](img/smtp.png)
 
+![Alt text](img/smtp2.png)
 
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
+
 
 select any username in the first column of the above file and check the same
 
@@ -96,7 +102,8 @@ Telnet allows to connect to remote host based on the port no. For smtp port no i
 telnet <host address> 25 to connect
 and issue appropriate commands
   
- ##Output
+ ## Output
+ ![Alt text](img/telnet.png)
   
   
 
@@ -106,7 +113,7 @@ The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server 
 
 
 ## OUTPUT:
-
+![Alt text](img/nmap.png)
 
 ## RESULT:
 The Google hacking keywords and enumeration tools were identified and executed successfully
