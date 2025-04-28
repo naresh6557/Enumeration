@@ -93,6 +93,7 @@ Username guessing tool primarily for use against the default Solaris SMTP servic
 
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
 
+![VirtualBox_Metasploitable 2_28_04_2025_20_43_13](https://github.com/user-attachments/assets/b398acc9-82b6-473f-a057-50a541bab5f4)
 
 select any username in the first column of the above file and check the same
 
